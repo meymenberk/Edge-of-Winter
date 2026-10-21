@@ -218,10 +218,10 @@ python -m pytest tests/
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/MrAaz">
-        <img src="https://github.com/MrAaz.png?size=100" width="100" alt="Arda Zelyurt"><br>
+      <a href="https://github.com/MrAaz0">
+        <img src="https://github.com/MrAaz0.png?size=100" width="100" alt="Arda Zelyurt"><br>
         <sub><b>Arda Zelyurt</b></sub><br>
-        <sub>@MrAaz</sub>
+        <sub>@MrAaz0</sub>
       </a>
     </td>
   </tr>
