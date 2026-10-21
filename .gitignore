@@ -1,0 +1,4 @@
+savegame.json
+savegame.json.bak
+savegame.seed-*.json
+.DS_Store
