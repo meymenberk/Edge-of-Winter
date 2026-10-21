@@ -1,0 +1,10 @@
+{
+  "world_seed": "553012369",
+  "server_address": "127.0.0.1",
+  "server_port": 5555,
+  "display_mode": "windowed",
+  "window_width": 1920,
+  "window_height": 1080,
+  "pixel_perfect": false,
+  "music_volume": 70
+}

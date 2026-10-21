@@ -1,0 +1,21 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Loading menu assets...
+Menu assets loaded successfully!
+[INIT] Starting background game preloader...
+[NET] Offline: [Errno 61] Connection refused
+{
+  "driver": "cocoa",
+  "startup_seconds": 3.863207791990135,
+  "forest_leaves": 15,
+  "nearby_oaks": 16,
+  "frame_mean_ms": 3.9328206239068613,
+  "frame_p95_ms": 4.521864546404686,
+  "frame_max_ms": 4.74554201355204,
+  "leaf_update_p95_ms": 0.057612205273471766,
+  "frames_measured": 210,
+  "ocean_leaves": 0,
+  "bare_mountain_leaves": 0,
+  "map_keys_passed": true,
+  "window_clicks_passed": true
+}

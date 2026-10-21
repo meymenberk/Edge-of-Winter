@@ -1,0 +1,31 @@
+test_authority_rejects_unknown_distant_sailing_and_duplicate_requests (test_world_rendering.NetworkTests.test_authority_rejects_unknown_distant_sailing_and_duplicate_requests) ... ok
+test_legacy_player_response_and_coalesced_packets (test_world_rendering.NetworkTests.test_legacy_player_response_and_coalesced_packets) ... ok
+test_partial_socket_writes_do_not_drop_harvest (test_world_rendering.NetworkTests.test_partial_socket_writes_do_not_drop_harvest) ... ok
+test_reconnect_cannot_attach_different_seed_to_loaded_world (test_world_rendering.NetworkTests.test_reconnect_cannot_attach_different_seed_to_loaded_world) ... ok
+test_two_clients_harvest_late_join_respawn_and_pause (test_world_rendering.NetworkTests.test_two_clients_harvest_late_join_respawn_and_pause) ... ok
+test_all_neighbor_configurations_opaque_and_pixel_sharp (test_world_rendering.WorldAndRenderingTests.test_all_neighbor_configurations_opaque_and_pixel_sharp) ... ok
+test_camera_and_chunk_boundaries_no_seams_after_scaling (test_world_rendering.WorldAndRenderingTests.test_camera_and_chunk_boundaries_no_seams_after_scaling) ... ok
+test_missing_atlas_fallback_map_pause_and_sailing (test_world_rendering.WorldAndRenderingTests.test_missing_atlas_fallback_map_pause_and_sailing) ... ok
+test_multiple_seed_determinism_density_and_restrictions (test_world_rendering.WorldAndRenderingTests.test_multiple_seed_determinism_density_and_restrictions) ... ok
+test_nearest_tree_interaction (test_world_rendering.WorldAndRenderingTests.test_nearest_tree_interaction) ... ok
+test_no_atlas_paper_in_ground_or_cliffs (test_world_rendering.WorldAndRenderingTests.test_no_atlas_paper_in_ground_or_cliffs) ... ok
+test_ordinary_paths_never_render_neighboring_rock (test_world_rendering.WorldAndRenderingTests.test_ordinary_paths_never_render_neighboring_rock) ... ok
+test_original_geography_buildings_roads_and_collision_preserved (test_world_rendering.WorldAndRenderingTests.test_original_geography_buildings_roads_and_collision_preserved) ... ok
+test_paths_connect_every_arm_and_fill_plazas (test_world_rendering.WorldAndRenderingTests.test_paths_connect_every_arm_and_fill_plazas) ... ok
+test_ports_are_idempotent_and_access_is_clear (test_world_rendering.WorldAndRenderingTests.test_ports_are_idempotent_and_access_is_clear) ... ok
+test_real_chopping_event_removes_canopy_and_respawns (test_world_rendering.WorldAndRenderingTests.test_real_chopping_event_removes_canopy_and_respawns) ... ok
+test_trees_and_player_share_depth_order (test_world_rendering.WorldAndRenderingTests.test_trees_and_player_share_depth_order) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 9.987s
+
+OK
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Offline: Server seed differs from the loaded world; restart the game to join it
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+[NET] Connected: player 2, seed 42, resource sync=True

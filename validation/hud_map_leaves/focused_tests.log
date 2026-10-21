@@ -1,0 +1,18 @@
+test_map_projection_terrain_and_remote_markers (test_hud_map_leaves.HUDMapIntegrationTests.test_map_projection_terrain_and_remote_markers) ... ok
+test_map_suspends_local_movement_and_combat_then_resumes (test_hud_map_leaves.HUDMapIntegrationTests.test_map_suspends_local_movement_and_combat_then_resumes) ... ok
+test_map_toggle_repeat_escape_and_click_do_not_fire_bow (test_hud_map_leaves.HUDMapIntegrationTests.test_map_toggle_repeat_escape_and_click_do_not_fire_bow) ... ok
+test_modal_screens_disable_leaf_emission (test_hud_map_leaves.HUDMapIntegrationTests.test_modal_screens_disable_leaf_emission) ... ok
+test_network_and_shared_resources_continue_while_chart_open (test_hud_map_leaves.HUDMapIntegrationTests.test_network_and_shared_resources_continue_while_chart_open) ... ok
+test_resource_rewards_change_rendered_counts_without_changing_layout (test_hud_map_leaves.HUDMapIntegrationTests.test_resource_rewards_change_rendered_counts_without_changing_layout) ... ok
+test_dense_forests_and_large_dt_respect_particle_cap (test_hud_map_leaves.LocalLeavesTests.test_dense_forests_and_large_dt_respect_particle_cap) ... ok
+test_drift_cannot_cross_coast_and_camera_does_not_move_world_particles (test_hud_map_leaves.LocalLeavesTests.test_drift_cannot_cross_coast_and_camera_does_not_move_world_particles) ... ok
+test_leaving_forest_and_entering_ui_clears_existing_particles (test_hud_map_leaves.LocalLeavesTests.test_leaving_forest_and_entering_ui_clears_existing_particles) ... ok
+test_only_local_active_oaks_emit_and_respawn_recovers (test_hud_map_leaves.LocalLeavesTests.test_only_local_active_oaks_emit_and_respawn_recovers) ... ok
+test_water_buildings_pines_and_treeless_areas_have_no_leaves (test_hud_map_leaves.LocalLeavesTests.test_water_buildings_pines_and_treeless_areas_have_no_leaves) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 2.947s
+
+OK
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html

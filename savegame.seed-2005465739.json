@@ -1,0 +1,64 @@
+{
+  "world_seed": 2005465739,
+  "saved_at": "2026-10-21T13:58:52",
+  "player": {
+    "x": 107.945,
+    "y": 229.374
+  },
+  "inventory": {
+    "Odun": 1,
+    "Tas": 9,
+    "Tahil": 5,
+    "Balik": 4,
+    "Çiğ Et": 1,
+    "Pişmiş Et": 0,
+    "Ekmek": 0,
+    "Ok": 10,
+    "Kadim Anahtar": 1
+  },
+  "equipment": {
+    "axe": true,
+    "sword": true,
+    "bow": true
+  },
+  "weapon_levels": {
+    "axe": 2,
+    "sword": 1,
+    "bow": 1
+  },
+  "stats": {
+    "health": 6,
+    "energy": 100.0,
+    "combat_xp": 17,
+    "game_time": 223.91
+  },
+  "rescued_islands": [
+    5
+  ],
+  "quests": {
+    "danger:5": {
+      "state": "completed",
+      "progress": 3
+    }
+  },
+  "defeated_monsters": [
+    "wolf:5:0",
+    "wolf:5:1",
+    "wolf:5:2"
+  ],
+  "treant_progress": {
+    "rescued_village_ids": [
+      5
+    ],
+    "keys_held": 1,
+    "quest_active": true,
+    "portal_unlocked": false,
+    "boss_defeated": false,
+    "dialogue_steps_seen": [
+      1
+    ],
+    "achievements": []
+  },
+  "dash_unlocked": true,
+  "version": 1
+}

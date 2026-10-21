@@ -1,0 +1,15 @@
+{
+  "driver": "dummy",
+  "startup_seconds": 4.449210124963429,
+  "forest_leaves": 15,
+  "nearby_oaks": 16,
+  "frame_mean_ms": 1.6933924557330708,
+  "frame_p95_ms": 1.7844315560068935,
+  "frame_max_ms": 1.9750409992411733,
+  "leaf_update_p95_ms": 0.0253150996286422,
+  "frames_measured": 210,
+  "ocean_leaves": 0,
+  "bare_mountain_leaves": 0,
+  "map_keys_passed": true,
+  "window_clicks_passed": false
+}

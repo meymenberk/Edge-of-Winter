@@ -1,0 +1,31 @@
+test_pvp_damage_death_respawn_and_sail_state_are_authoritative (test_world_rendering.NetworkTests.test_pvp_damage_death_respawn_and_sail_state_are_authoritative) ... pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+ORIGINAL BUILD PVP: normal accepted= True target_before= {'sailing': False, 'health': 8, 'spawn_confirmed': True, 'invulnerable_until': 0.0}
+ORIGINAL BUILD PVP: dash accepted= True target_before= {'sailing': False, 'health': 2, 'spawn_confirmed': True, 'invulnerable_until': 0.0}
+ok
+test_pvp_damage_death_respawn_and_sail_state_are_authoritative (test_world_rendering.NetworkTests.test_pvp_damage_death_respawn_and_sail_state_are_authoritative) ... [NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+ORIGINAL BUILD PVP: normal accepted= True target_before= {'sailing': False, 'health': 8, 'spawn_confirmed': True, 'invulnerable_until': 0.0}
+ORIGINAL BUILD PVP: dash accepted= False target_before= {'sailing': True, 'health': 2, 'spawn_confirmed': True, 'invulnerable_until': 0.0}
+FAIL
+test_pvp_damage_death_respawn_and_sail_state_are_authoritative (test_world_rendering.NetworkTests.test_pvp_damage_death_respawn_and_sail_state_are_authoritative) ... [NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+ORIGINAL BUILD PVP: normal accepted= True target_before= {'sailing': False, 'health': 8, 'spawn_confirmed': True, 'invulnerable_until': 0.0}
+ORIGINAL BUILD PVP: dash accepted= True target_before= {'sailing': False, 'health': 2, 'spawn_confirmed': True, 'invulnerable_until': 0.0}
+ok
+
+======================================================================
+FAIL: test_pvp_damage_death_respawn_and_sail_state_are_authoritative (test_world_rendering.NetworkTests.test_pvp_damage_death_respawn_and_sail_state_are_authoritative)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/eymenberk/Desktop/çınargay/tests/test_world_rendering.py", line 375, in test_pvp_damage_death_respawn_and_sail_state_are_authoritative
+    self.assertGreater(b.spawn_revision, old_spawn_revision)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 not greater than 0
+
+----------------------------------------------------------------------
+Ran 3 tests in 6.100s
+
+FAILED (failures=1)

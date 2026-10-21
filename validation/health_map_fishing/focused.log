@@ -1,0 +1,12 @@
+test_darkest_grass_and_forest_pixels_are_lifted (tests.test_health_map_fishing.HealthMapFishingTests.test_darkest_grass_and_forest_pixels_are_lifted) ... ok
+test_fishing_has_three_sprites_four_fish_reeling_escape_and_reward (tests.test_health_map_fishing.HealthMapFishingTests.test_fishing_has_three_sprites_four_fish_reeling_escape_and_reward) ... ok
+test_five_hearts_support_full_half_and_empty (tests.test_health_map_fishing.HealthMapFishingTests.test_five_hearts_support_full_half_and_empty) ... ok
+test_full_and_rescue_maps_zoom_pan_and_close (tests.test_health_map_fishing.HealthMapFishingTests.test_full_and_rescue_maps_zoom_pan_and_close) ... ok
+test_names_are_seeded_unique_and_old_world (tests.test_health_map_fishing.HealthMapFishingTests.test_names_are_seeded_unique_and_old_world) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.972s
+
+OK
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html

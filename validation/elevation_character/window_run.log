@@ -1,0 +1,44 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Loading menu assets...
+Menu assets loaded successfully!
+[INIT] Starting background game preloader...
+[NET] Offline: [Errno 61] Connection refused
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+{
+  "driver": "cocoa",
+  "preload_seconds": 2.4816484579932876,
+  "preload_max_poll_ms": 63.89525000122376,
+  "character_asset": "manchar.jpeg",
+  "tcp_peer_animation": "four directions and idle passed",
+  "seeds": {
+    "0": {
+      "1": 2398,
+      "2": 1467,
+      "3": 508
+    },
+    "42": {
+      "1": 2759,
+      "2": 1500,
+      "3": 369
+    },
+    "137": {
+      "1": 3140,
+      "2": 1573,
+      "3": 227
+    },
+    "2026": {
+      "1": 2588,
+      "2": 1335,
+      "3": 484
+    }
+  },
+  "measured_frames": 900,
+  "cold_view_max_ms": 25.240459013730288,
+  "continuous_travel_max_ms": 15.157915971940383,
+  "frame_mean_ms": 3.2698601958367766,
+  "frame_p95_ms": 4.342660401016473,
+  "frame_max_ms": 28.76320801442489,
+  "composite_cache": 4096
+}

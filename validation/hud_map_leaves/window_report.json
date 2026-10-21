@@ -1,0 +1,15 @@
+{
+  "driver": "cocoa",
+  "startup_seconds": 3.7986359579954296,
+  "forest_leaves": 15,
+  "nearby_oaks": 16,
+  "frame_mean_ms": 4.28783809087084,
+  "frame_p95_ms": 4.790020652581006,
+  "frame_max_ms": 5.264167004497722,
+  "leaf_update_p95_ms": 0.058387492026668035,
+  "frames_measured": 210,
+  "ocean_leaves": 0,
+  "bare_mountain_leaves": 0,
+  "map_keys_passed": true,
+  "window_clicks_passed": true
+}

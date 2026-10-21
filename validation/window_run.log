@@ -1,0 +1,40 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Loading menu assets...
+Menu assets loaded successfully!
+[INIT] Starting background game preloader...
+[NET] Offline: [Errno 61] Connection refused
+{
+  "display_driver": "cocoa",
+  "seeds": {
+    "0": {
+      "Tas": 70,
+      "Tahil": 52,
+      "Odun": 892
+    },
+    "42": {
+      "Tahil": 73,
+      "Tas": 37,
+      "Odun": 1058
+    },
+    "137": {
+      "Tahil": 65,
+      "Tas": 56,
+      "Odun": 1025
+    },
+    "2026": {
+      "Tahil": 51,
+      "Tas": 31,
+      "Odun": 777
+    }
+  },
+  "preload_seconds": 2.486588125000708,
+  "preload_poll_max_ms": 43.579749995842576,
+  "traversal_p95_ms": 4.464399651624262,
+  "traversal_max_ms": 6.923666020156816,
+  "game_frame_mean_ms": 2.938878017960599,
+  "game_frame_p95_ms": 4.327591652690898,
+  "game_frame_max_ms": 5.79825000022538,
+  "frames_measured": 540,
+  "composite_cache_entries": 4096
+}

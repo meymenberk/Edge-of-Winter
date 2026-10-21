@@ -1,0 +1,110 @@
+test_actual_sixteen_poses_and_true_left_direction (test_character_elevation.CharacterElevationTests.test_actual_sixteen_poses_and_true_left_direction) ... ok
+test_cliff_geometry_agrees_across_chunk_boundaries (test_character_elevation.CharacterElevationTests.test_cliff_geometry_agrees_across_chunk_boundaries) ... ok
+test_dt_timing_idle_stop_turning_and_slope_speed (test_character_elevation.CharacterElevationTests.test_dt_timing_idle_stop_turning_and_slope_speed) ... ok
+test_elevation_deterministic_and_gameplay_data_unchanged (test_character_elevation.CharacterElevationTests.test_elevation_deterministic_and_gameplay_data_unchanged) ... ok
+test_faces_stay_on_mountain_and_preserve_routes_exactly (test_character_elevation.CharacterElevationTests.test_faces_stay_on_mountain_and_preserve_routes_exactly) ... ok
+test_feet_anchor_transparency_and_crisp_scaling (test_character_elevation.CharacterElevationTests.test_feet_anchor_transparency_and_crisp_scaling) ... ok
+test_lookup_extensions_case_variations_and_missing (test_character_elevation.CharacterElevationTests.test_lookup_extensions_case_variations_and_missing) ... ok
+test_real_movement_directions_and_blocked_idle (test_character_elevation.CharacterElevationTests.test_real_movement_directions_and_blocked_idle) ... ok
+test_remote_direction_animation_and_departure (test_character_elevation.CharacterElevationTests.test_remote_direction_animation_and_departure) ... ok
+test_render_does_not_advance_animation_and_uses_manchar (test_character_elevation.CharacterElevationTests.test_render_does_not_advance_animation_and_uses_manchar) ... ok
+test_arena_reports_win_and_loss (test_gameplay_systems.GameplaySystemTests.test_arena_reports_win_and_loss) ... ok
+test_naval_merchants_roam_and_pirates_fire (test_gameplay_systems.GameplaySystemTests.test_naval_merchants_roam_and_pirates_fire) ... FAIL
+test_normal_combo_and_crouch_attack_hitboxes (test_gameplay_systems.GameplaySystemTests.test_normal_combo_and_crouch_attack_hitboxes) ... ok
+test_quest_accept_progress_and_reward (test_gameplay_systems.GameplaySystemTests.test_quest_accept_progress_and_reward) ... ok
+test_spawn_pool_uses_different_islands_before_reuse (test_gameplay_systems.GameplaySystemTests.test_spawn_pool_uses_different_islands_before_reuse) ... ok
+test_third_combo_is_heavy_and_enemy_ai_telegraphs (test_gameplay_systems.GameplaySystemTests.test_third_combo_is_heavy_and_enemy_ai_telegraphs) ... ok
+test_typewriter_advances_and_calls_completion (test_gameplay_systems.GameplaySystemTests.test_typewriter_advances_and_calls_completion) ... ok
+test_darkest_grass_and_forest_pixels_are_lifted (test_health_map_fishing.HealthMapFishingTests.test_darkest_grass_and_forest_pixels_are_lifted) ... ok
+test_fishing_has_three_sprites_four_fish_reeling_escape_and_reward (test_health_map_fishing.HealthMapFishingTests.test_fishing_has_three_sprites_four_fish_reeling_escape_and_reward) ... ok
+test_five_hearts_support_full_half_and_empty (test_health_map_fishing.HealthMapFishingTests.test_five_hearts_support_full_half_and_empty) ... ok
+test_full_and_rescue_maps_zoom_pan_and_close (test_health_map_fishing.HealthMapFishingTests.test_full_and_rescue_maps_zoom_pan_and_close) ... ok
+test_names_are_seeded_unique_and_old_world (test_health_map_fishing.HealthMapFishingTests.test_names_are_seeded_unique_and_old_world) ... ok
+test_map_projection_terrain_and_remote_markers (test_hud_map_leaves.HUDMapIntegrationTests.test_map_projection_terrain_and_remote_markers) ... ok
+test_map_suspends_local_movement_and_combat_then_resumes (test_hud_map_leaves.HUDMapIntegrationTests.test_map_suspends_local_movement_and_combat_then_resumes) ... ok
+test_map_toggle_repeat_escape_and_click_do_not_fire_bow (test_hud_map_leaves.HUDMapIntegrationTests.test_map_toggle_repeat_escape_and_click_do_not_fire_bow) ... ok
+test_modal_screens_disable_leaf_emission (test_hud_map_leaves.HUDMapIntegrationTests.test_modal_screens_disable_leaf_emission) ... ok
+test_network_and_shared_resources_continue_while_chart_open (test_hud_map_leaves.HUDMapIntegrationTests.test_network_and_shared_resources_continue_while_chart_open) ... ok
+test_resource_rewards_change_rendered_counts_without_changing_layout (test_hud_map_leaves.HUDMapIntegrationTests.test_resource_rewards_change_rendered_counts_without_changing_layout) ... ok
+test_dense_forests_and_large_dt_respect_particle_cap (test_hud_map_leaves.LocalLeavesTests.test_dense_forests_and_large_dt_respect_particle_cap) ... ok
+test_drift_cannot_cross_coast_and_camera_does_not_move_world_particles (test_hud_map_leaves.LocalLeavesTests.test_drift_cannot_cross_coast_and_camera_does_not_move_world_particles) ... ok
+test_leaving_forest_and_entering_ui_clears_existing_particles (test_hud_map_leaves.LocalLeavesTests.test_leaving_forest_and_entering_ui_clears_existing_particles) ... ok
+test_only_local_active_oaks_emit_and_respawn_recovers (test_hud_map_leaves.LocalLeavesTests.test_only_local_active_oaks_emit_and_respawn_recovers) ... ok
+test_water_buildings_pines_and_treeless_areas_have_no_leaves (test_hud_map_leaves.LocalLeavesTests.test_water_buildings_pines_and_treeless_areas_have_no_leaves) ... ok
+test_capture_neutral_island_requires_resources (test_island_conquest.IslandConquestTests.test_capture_neutral_island_requires_resources) ... ok
+test_debug_equipment_loot_bow_and_wind_systems (test_island_conquest.IslandConquestTests.test_debug_equipment_loot_bow_and_wind_systems) ... ok
+test_double_tap_dashes_in_four_cardinal_and_diagonal_directions (test_island_conquest.IslandConquestTests.test_double_tap_dashes_in_four_cardinal_and_diagonal_directions) ... ok
+test_double_w_starts_dash_and_attack_becomes_wave_slash (test_island_conquest.IslandConquestTests.test_double_w_starts_dash_and_attack_becomes_wave_slash) ... ok
+test_initial_inventory_and_harvest_rewards (test_island_conquest.IslandConquestTests.test_initial_inventory_and_harvest_rewards) ... ok
+test_inventory_toggle_and_conquer_key (test_island_conquest.IslandConquestTests.test_inventory_toggle_and_conquer_key) ... ok
+test_island_passive_income (test_island_conquest.IslandConquestTests.test_island_passive_income) ... ok
+test_melee_kill_can_start_cinematic_finisher (test_island_conquest.IslandConquestTests.test_melee_kill_can_start_cinematic_finisher) ... ok
+test_multiplayer_island_capture_and_sync (test_island_conquest.IslandConquestTests.test_multiplayer_island_capture_and_sync) ... ok
+test_rescue_cost_increases_with_time_not_rescue_count (test_island_conquest.IslandConquestTests.test_rescue_cost_increases_with_time_not_rescue_count) ... ok
+test_rescued_island_cannot_be_stolen (test_island_conquest.IslandConquestTests.test_rescued_island_cannot_be_stolen) ... ok
+test_sail_can_be_lowered_raised_and_controls_wind_capture (test_island_conquest.IslandConquestTests.test_sail_can_be_lowered_raised_and_controls_wind_capture) ... ok
+test_six_islands_triggers_win_condition (test_island_conquest.IslandConquestTests.test_six_islands_triggers_win_condition) ... ok
+test_wood_chopping_times_out_and_reports_loss (test_island_conquest.IslandConquestTests.test_wood_chopping_times_out_and_reports_loss) ... ok
+test_authority_rejects_unknown_distant_sailing_and_duplicate_requests (test_world_rendering.NetworkTests.test_authority_rejects_unknown_distant_sailing_and_duplicate_requests) ... ok
+test_legacy_player_response_and_coalesced_packets (test_world_rendering.NetworkTests.test_legacy_player_response_and_coalesced_packets) ... ok
+test_partial_socket_writes_do_not_drop_harvest (test_world_rendering.NetworkTests.test_partial_socket_writes_do_not_drop_harvest) ... ok
+test_pvp_damage_death_respawn_and_sail_state_are_authoritative (test_world_rendering.NetworkTests.test_pvp_damage_death_respawn_and_sail_state_are_authoritative) ... FAIL
+test_reconnect_cannot_attach_different_seed_to_loaded_world (test_world_rendering.NetworkTests.test_reconnect_cannot_attach_different_seed_to_loaded_world) ... ok
+test_two_clients_harvest_late_join_respawn_and_pause (test_world_rendering.NetworkTests.test_two_clients_harvest_late_join_respawn_and_pause) ... ok
+test_all_neighbor_configurations_opaque_and_pixel_sharp (test_world_rendering.WorldAndRenderingTests.test_all_neighbor_configurations_opaque_and_pixel_sharp) ... ok
+test_camera_and_chunk_boundaries_no_seams_after_scaling (test_world_rendering.WorldAndRenderingTests.test_camera_and_chunk_boundaries_no_seams_after_scaling) ... ok
+test_missing_atlas_fallback_map_pause_and_sailing (test_world_rendering.WorldAndRenderingTests.test_missing_atlas_fallback_map_pause_and_sailing) ... ok
+test_multiple_seed_determinism_density_and_restrictions (test_world_rendering.WorldAndRenderingTests.test_multiple_seed_determinism_density_and_restrictions) ... ok
+test_nearest_tree_interaction (test_world_rendering.WorldAndRenderingTests.test_nearest_tree_interaction) ... ok
+test_no_atlas_paper_in_ground_or_cliffs (test_world_rendering.WorldAndRenderingTests.test_no_atlas_paper_in_ground_or_cliffs) ... ok
+test_ordinary_paths_never_render_neighboring_rock (test_world_rendering.WorldAndRenderingTests.test_ordinary_paths_never_render_neighboring_rock) ... ok
+test_original_geography_buildings_roads_and_collision_preserved (test_world_rendering.WorldAndRenderingTests.test_original_geography_buildings_roads_and_collision_preserved) ... FAIL
+test_paths_connect_every_arm_and_fill_plazas (test_world_rendering.WorldAndRenderingTests.test_paths_connect_every_arm_and_fill_plazas) ... ok
+test_ports_are_idempotent_and_access_is_clear (test_world_rendering.WorldAndRenderingTests.test_ports_are_idempotent_and_access_is_clear) ... ok
+test_real_chopping_event_removes_canopy_and_respawns (test_world_rendering.WorldAndRenderingTests.test_real_chopping_event_removes_canopy_and_respawns) ... ok
+test_trees_and_player_share_depth_order (test_world_rendering.WorldAndRenderingTests.test_trees_and_player_share_depth_order) ... ok
+
+======================================================================
+FAIL: test_naval_merchants_roam_and_pirates_fire (test_gameplay_systems.GameplaySystemTests.test_naval_merchants_roam_and_pirates_fire)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/eymenberk/Desktop/çınargay/tests/test_gameplay_systems.py", line 90, in test_naval_merchants_roam_and_pirates_fire
+    self.assertTrue(naval.cannonballs)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_pvp_damage_death_respawn_and_sail_state_are_authoritative (test_world_rendering.NetworkTests.test_pvp_damage_death_respawn_and_sail_state_are_authoritative)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/eymenberk/Desktop/çınargay/tests/test_world_rendering.py", line 375, in test_pvp_damage_death_respawn_and_sail_state_are_authoritative
+    self.assertGreater(b.spawn_revision, old_spawn_revision)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 not greater than 0
+
+======================================================================
+FAIL: test_original_geography_buildings_roads_and_collision_preserved (test_world_rendering.WorldAndRenderingTests.test_original_geography_buildings_roads_and_collision_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/eymenberk/Desktop/çınargay/tests/test_world_rendering.py", line 63, in test_original_geography_buildings_roads_and_collision_preserved
+    self.assertEqual(self.world.heights, old.heights)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [[-0.[2390 chars] -0.4, -0.4, -0.4, -0.4, -0.4, -0.4, -0.4, -0.[2488563 chars]0.4]] != [[-0.[2390 chars] -0.4], [-0.4, -0.4, -0.4, -0.4, -0.4, -0.4, -[979652 chars]0.4]]
+
+----------------------------------------------------------------------
+Ran 65 tests in 38.563s
+
+FAILED (failures=3)
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.7)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Offline: Server seed differs from the loaded world; restart the game to join it
+[NET] Connected: player 0, seed 42, resource sync=True
+[NET] Connected: player 1, seed 42, resource sync=True
+[NET] Connected: player 2, seed 42, resource sync=True

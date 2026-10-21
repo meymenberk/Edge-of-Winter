@@ -1,0 +1,476 @@
+[
+  {
+    "frame": 0,
+    "state": "INTRO",
+    "animation": "idle",
+    "animation_frame": 0,
+    "stages": {
+      "01_terrain": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2194
+      },
+      "02_portal": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2708
+      },
+      "03_decorations": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 3973
+      },
+      "04_player": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2230
+      },
+      "05_boss": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2201
+      },
+      "06_attack_effects": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2194
+      },
+      "07_final": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 3983
+      }
+    },
+    "player_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        585,
+        623,
+        30,
+        54
+      ],
+      "visible_pixels": 1064,
+      "transparent_pixels": 934936,
+      "opaque_dark_pixels": 36
+    },
+    "boss_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        554,
+        247,
+        92,
+        109
+      ],
+      "visible_pixels": 6452,
+      "transparent_pixels": 929548,
+      "opaque_dark_pixels": 7
+    },
+    "effects_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_pixels": 0,
+      "transparent_pixels": 936000,
+      "opaque_dark_pixels": 0
+    }
+  },
+  {
+    "frame": 4,
+    "state": "INTRO",
+    "animation": "idle",
+    "animation_frame": 0,
+    "stages": {
+      "01_terrain": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2194
+      },
+      "02_portal": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2708
+      },
+      "03_decorations": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 3973
+      },
+      "04_player": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2230
+      },
+      "05_boss": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2201
+      },
+      "06_attack_effects": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2194
+      },
+      "07_final": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 3983
+      }
+    },
+    "player_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        585,
+        623,
+        30,
+        54
+      ],
+      "visible_pixels": 1064,
+      "transparent_pixels": 934936,
+      "opaque_dark_pixels": 36
+    },
+    "boss_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        554,
+        247,
+        92,
+        109
+      ],
+      "visible_pixels": 6452,
+      "transparent_pixels": 929548,
+      "opaque_dark_pixels": 7
+    },
+    "effects_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_pixels": 0,
+      "transparent_pixels": 936000,
+      "opaque_dark_pixels": 0
+    }
+  },
+  {
+    "frame": 8,
+    "state": "INTRO",
+    "animation": "idle",
+    "animation_frame": 1,
+    "stages": {
+      "01_terrain": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2194
+      },
+      "02_portal": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2708
+      },
+      "03_decorations": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 3973
+      },
+      "04_player": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2230
+      },
+      "05_boss": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2201
+      },
+      "06_attack_effects": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 2194
+      },
+      "07_final": {
+        "size": [
+          1200,
+          780
+        ],
+        "bounds": [
+          0,
+          0,
+          1200,
+          780
+        ],
+        "visible_pixels": 936000,
+        "transparent_pixels": 0,
+        "opaque_dark_pixels": 3983
+      }
+    },
+    "player_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        585,
+        623,
+        30,
+        54
+      ],
+      "visible_pixels": 1064,
+      "transparent_pixels": 934936,
+      "opaque_dark_pixels": 36
+    },
+    "boss_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        554,
+        248,
+        92,
+        108
+      ],
+      "visible_pixels": 6349,
+      "transparent_pixels": 929651,
+      "opaque_dark_pixels": 7
+    },
+    "effects_layer": {
+      "size": [
+        1200,
+        780
+      ],
+      "bounds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_pixels": 0,
+      "transparent_pixels": 936000,
+      "opaque_dark_pixels": 0
+    }
+  }
+]
