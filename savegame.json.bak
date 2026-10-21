@@ -1,19 +1,19 @@
 {
   "world_seed": 553012369,
-  "saved_at": "2026-10-21T14:16:15",
+  "saved_at": "2026-10-21T14:46:51",
   "player": {
-    "x": 316.637,
-    "y": 20.662
+    "x": 400.576,
+    "y": 52.607
   },
   "inventory": {
-    "Odun": 65,
-    "Tas": 69,
-    "Tahil": 98,
-    "Balik": 126,
-    "Çiğ Et": 4,
+    "Odun": 113,
+    "Tas": 101,
+    "Tahil": 130,
+    "Balik": 180,
+    "Çiğ Et": 5,
     "Pişmiş Et": 1,
     "Ekmek": 0,
-    "Ok": 9,
+    "Ok": 6,
     "Kadim Anahtar": 0
   },
   "equipment": {
@@ -29,8 +29,8 @@
   "stats": {
     "health": 7,
     "energy": 100.0,
-    "combat_xp": 242,
-    "game_time": 985.81
+    "combat_xp": 251,
+    "game_time": 1152.14
   },
   "rescued_islands": [
     5,
@@ -41,6 +41,10 @@
     33
   ],
   "quests": {
+    "danger:4": {
+      "state": "available",
+      "progress": 1
+    },
     "danger:5": {
       "state": "completed",
       "progress": 3
@@ -76,6 +80,7 @@
     "bandit:27:2",
     "boar:29:0",
     "boar:29:2",
+    "boar:4:0",
     "pirate:26:0",
     "pirate:26:1",
     "pirate:26:2",

@@ -926,6 +926,36 @@ def get_local_camera(player, fishing=None):
     return camera_x, camera_y
 
 
+def snapped_world_zoom(zoom):
+    """Quantise a cinematic zoom so one world tile spans a whole number of pixels."""
+    return max(LOCAL_TILE_SIZE, round(LOCAL_TILE_SIZE * zoom)) / LOCAL_TILE_SIZE
+
+
+def magnify_world(screen, camera, zoom, origin):
+    """Nearest-neighbour zoom of a finished world frame, sampled in world space.
+
+    ``origin`` is the frame pixel shown at the top-left corner and ``camera``
+    the integer camera the frame was drawn with. Resampling a screen-anchored
+    crop at a fractional ratio made tiles 76 or 77 pixels wide depending on
+    where they fell, so terrain slid and seamed whenever the camera moved.
+    Here every tile maps to exactly the same pixel span and pattern.
+    """
+    tile = round(LOCAL_TILE_SIZE * snapped_world_zoom(zoom))
+    if tile <= LOCAL_TILE_SIZE:
+        return
+
+    def source_indices(cam, start, length):
+        offset = round((cam + start) * tile / LOCAL_TILE_SIZE)
+        world = (np.arange(length) + offset) * LOCAL_TILE_SIZE // tile
+        return np.clip(world - cam, 0, length - 1)
+
+    width, height = screen.get_size()
+    xs = source_indices(camera[0], origin[0], width)
+    ys = source_indices(camera[1], origin[1], height)
+    pixels = pygame.surfarray.array2d(screen)
+    pygame.surfarray.blit_array(screen, pixels[xs[:, None], ys[None, :]])
+
+
 def draw_ports(screen, ports, player, camera_x, camera_y, atlas=None):
     tile = LOCAL_TILE_SIZE
 
@@ -4721,10 +4751,12 @@ class GameSession:
         if not self.map_open:
             mx, my = logical_mouse_pos
             real_mx, real_my = mx, my
-            if self.fishing.zoom_level > 1.01:
-                cx, cy = GAME_WIDTH // 2, GAME_HEIGHT // 2
-                real_mx = cx + (mx - cx) / self.fishing.zoom_level
-                real_my = cy + (my - cy) / self.fishing.zoom_level
+            zoom = snapped_world_zoom(self.fishing.zoom_level)
+            if zoom > 1.0:
+                # Same zoom the renderer shows, so the bobber aims where the cursor is.
+                cx, cy = GAME_WIDTH / 2, GAME_HEIGHT / 2
+                real_mx = cx + (mx - cx) / zoom
+                real_my = cy + (my - cy) / zoom
 
             self.fishing.update(dt, real_mx + self.cam_x, real_my + self.cam_y, self.world)
             self.grain_game.update(dt, logical_mouse_pos)
@@ -5031,25 +5063,21 @@ class GameSession:
             self.fishing.draw_world(screen, camera_x, camera_y, self.player)
             self.draw_interaction_prompt(screen, camera_x, camera_y)
 
-            if self.fishing.zoom_level > 1.01:
-                zoom = self.fishing.zoom_level
-                w, h = GAME_WIDTH, GAME_HEIGHT
-                new_w, new_h = int(w / zoom), int(h / zoom)
-                sub_rect = pygame.Rect((w - new_w) // 2, (h - new_h) // 2, new_w, new_h)
-                zoomed_surface = pygame.transform.scale(screen.subsurface(sub_rect).copy(), (w, h))
-                screen.blit(zoomed_surface, (0, 0))
+            zoom = snapped_world_zoom(self.fishing.zoom_level)
+            if zoom > 1.0:
+                magnify_world(screen, (camera_x, camera_y), zoom,
+                              (GAME_WIDTH / 2 * (1 - 1 / zoom), GAME_HEIGHT / 2 * (1 - 1 / zoom)))
 
             if self.execution is not None:
                 progress = min(1.0, self.execution["timer"] / self.execution["duration"])
                 cinematic = math.sin(progress * math.pi)
-                zoom = 1.0 + cinematic * .42
-                crop_w, crop_h = max(1, round(GAME_WIDTH / zoom)), max(1, round(GAME_HEIGHT / zoom))
+                zoom = snapped_world_zoom(1.0 + cinematic * .42)
+                crop_w, crop_h = GAME_WIDTH / zoom, GAME_HEIGHT / zoom
                 focus_x = round(self.execution["x"] * LOCAL_TILE_SIZE) - camera_x
                 focus_y = round(self.execution["y"] * LOCAL_TILE_SIZE) - camera_y
-                crop_x = max(0, min(GAME_WIDTH - crop_w, focus_x - crop_w // 2))
-                crop_y = max(0, min(GAME_HEIGHT - crop_h, focus_y - crop_h // 2))
-                crop = screen.subsurface((crop_x, crop_y, crop_w, crop_h)).copy()
-                screen.blit(pygame.transform.smoothscale(crop, (GAME_WIDTH, GAME_HEIGHT)), (0, 0))
+                crop_x = max(0, min(GAME_WIDTH - crop_w, focus_x - crop_w / 2))
+                crop_y = max(0, min(GAME_HEIGHT - crop_h, focus_y - crop_h / 2))
+                magnify_world(screen, (camera_x, camera_y), zoom, (crop_x, crop_y))
                 bar_height = round(28 * cinematic)
                 if bar_height:
                     pygame.draw.rect(screen, (10, 8, 14), (0, 0, GAME_WIDTH, bar_height))
